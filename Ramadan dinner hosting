@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Dinner Hosting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ramadan Dinner Hosting</h1>
+        <nav>
+            <ul>
+                <li><a href="#calendar">Calendar</a></li>
+                <li><a href="#hosts">Hosts & Locations</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="calendar">
+        <h2>Schedule a Dinner</h2>
+        <p>View available dates and schedule your dinner.</p>
+        <!-- Calendar integration goes here -->
+    </section>
+    
+    <section id="hosts">
+        <h2>Hosts & Locations</h2>
+        <p>Find a host and location for Iftar.</p>
+        <!-- Host listing will be added here -->
+    </section>
+    
+    <section id="rsvp">
+        <h2>RSVP for a Dinner</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="menu">
+        <h2>Menu & Dietary Information</h2>
+        <p>Check out the meals available for the dinner.</p>
+        <!-- Menu details go here -->
+    </section>
+    
+    <section id="login">
+        <h2>Login / Register</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Ramadan Dinner Hosting</p>
+    </footer>
+</body>
+</html>
